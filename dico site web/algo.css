@@ -1,0 +1,130 @@
+/*--------Mots croisés--------*/
+
+#bar {
+    top: 0;
+    left: 0;
+    display: none;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#bar p {
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    margin-top: 270px;
+    width: 5%;
+}
+
+.subline {
+    width: 150px;
+    height: 3px;
+    background-color: rgb(30, 30, 30);
+    margin: 20px 0;
+}
+
+.lettre {
+    width: 30px;
+}
+
+
+/*--------toutes les pages--------*/
+
+@font-face {
+    font-family: "Acme";
+    src: url("Acme-Regular.ttf");
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("dictionnaire.jpg");
+    background-size: 100%;
+    font-family: Acme;
+    margin: 0;
+    top: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+#contener {
+    margin: 100px 10%;
+}
+
+#contener-total {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(240, 240, 240, 0.9);
+    min-height: 100%;
+    top: 0%;
+    position: absolute;
+    width: 100%;
+}
+
+form {
+    font-size: 20px;
+}
+
+.resultat {
+    padding: 0;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 20px;
+    border: 8px solid rgb(189, 189, 189);
+}
+
+h3 {
+    top: 0;
+    background-color: rgb(189, 189, 189);
+    padding: 10px 0;
+    margin: 0;
+    left: 0;
+    width: 100%;
+}
+
+#accueil {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 15px;
+    border: 2px solid #888;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+#accueil:hover {
+    color: #eee;
+    background-color: #555;
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
